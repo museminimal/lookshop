@@ -13,11 +13,11 @@ function scssCompile () {
         .pipe(dest('dist/css'))
 }
 
-function htmlMoving () {
-    return src('app/index.html')
-          .pipe(dest('dist'))
-
-}
+// function htmlMoving () {
+//     return src('app/index.html')
+//           .pipe(dest('dist'))
+//
+// }
 
 function jsCompile () {
   return src('app/js/main.js')

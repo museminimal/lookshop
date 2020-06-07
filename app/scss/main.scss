@@ -1,0 +1,61 @@
+@import "reset";
+@import "fonts";
+@import "vars";
+@import "header/header.scss";
+@import "promo/promo.scss";
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.selectCurrency {
+  color: $colorWhite;
+}
+
+.tel {
+  padding: 10px 0;
+}
+
+.text {
+  color: $colorWhite;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.main-button {
+  background: $lightOrange;
+  border-bottom: 3px solid $colorOrange;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: $colorWhite;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  font-size: 16px;
+}
+
+.main-button_big {
+  padding: 20px 25px;
+
+  .main-button__text {
+    display: block;
+    padding-right: 25px;
+    position: relative;
+
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      top: 3px;
+      right: 0;
+      background: url("../img/arrow-right.png") no-repeat center / cover;
+      cursor: pointer;
+    }
+  }
+
+
+}
+

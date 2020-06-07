@@ -1,0 +1,121 @@
+header {
+  .header__top-section {
+    background: $colorBlack;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+    .header__top-section-inner {
+      display: flex;
+      justify-content: space-between;
+
+      .header__nav-panel-inner {
+        display: flex;
+
+        .header__nav-panel {
+          border-left: 1px solid $colorWhite;
+          padding: 8px 15px;
+        }
+
+        .header__nav-panel_search {
+          padding: 7px 10px;
+          border-right: 1px solid $colorWhite;
+
+          img {
+            width: 15px;
+            height: 15px;
+          }
+        }
+
+        .header__nav-panel_list {
+
+          .first-item {
+            position: relative;
+            padding-right: 18px;
+
+            &::after {
+              content: '';
+              display: block;
+              position: absolute;
+              width: 7px;
+              height: 4px;
+              top: 6px;
+              right: 0;
+              background: url("../img/dropdown.png") no-repeat center / cover;
+              cursor: pointer;
+            }
+          }
+
+          .second-item, .third-item {
+            display: none;
+          }
+
+          .us {
+            color: $colorWhite;
+          }
+        }
+
+        .header__nav-panel_login {
+          position: relative;
+          padding-left: 15px;
+
+          .header__nav-panel_login__inner {
+            margin: 0 auto;
+          }
+
+          .header__authorize {
+            display: inline-block;
+            padding-left: 25px;
+            color: $colorWhite;
+          }
+
+          .header__authorize::before {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 14px;
+            height: 13px;
+            top: 11px;
+            left: 0;
+            background: url("../img/user.png") no-repeat center / cover;
+            margin-left: 15px;
+          }
+        }
+      }
+    }
+  }
+
+  .header__main-section {
+    padding: 45px 0;
+    display: flex;
+    align-items: center;
+
+
+    .categories__nav {
+      display: flex;
+      margin-left: 180px;
+
+      .nav__item {
+        margin-left: 30px;
+        color: $colorBlack;
+        position: relative;
+        padding-right: 12px;
+
+        &::after {
+          content: '';
+          display: block;
+          position: absolute;
+          width: 7px;
+          height: 4px;
+          top: 7px;
+          right: 0;
+          background: url("../img/dropdown-black.png") no-repeat center / cover;
+          cursor: pointer;
+        }
+      }
+
+    }
+
+
+  }
+}

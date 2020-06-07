@@ -1,0 +1,29 @@
+.promo {
+  background: #ede6de;
+
+  .promo__inner {
+    display: flex;
+    flex-wrap: nowrap;
+
+    .promo__image-inner {
+      margin-left: 65px;
+      max-width: 350px;
+      padding: 40px 0 17px;
+    }
+
+    .promo__button-inner {
+      max-width: 410px;
+      margin-left: 150px;
+    }
+
+    .promo__presentation-inner {
+      max-width: 500px;
+
+      img {
+        height: 100%;
+      }
+    }
+  }
+
+
+}

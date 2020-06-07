@@ -1,7 +1,6 @@
 {
-  "name": "buyback-cars",
+  "name": "lookshop",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "gulp": "gulp watch"
@@ -15,5 +14,14 @@
     "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
     "gulp-sass": "^4.0.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/museminimal/lookshop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/museminimal/lookshop/issues"
+  },
+  "homepage": "https://github.com/museminimal/lookshop#readme",
+  "description": ""
 }
