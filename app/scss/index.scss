@@ -5,7 +5,7 @@
 @import "promo/promo.scss";
 
 .container {
-  width: 1000px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -33,10 +33,17 @@
   border-right: none;
   border-left: none;
   font-size: 16px;
+  outline: none;
 }
 
 .main-button_big {
-  padding: 20px 25px;
+  padding: 16px 25px;
+  margin-bottom: 80px;
+
+  &:hover {
+    background: #CC919D;
+    border-bottom: 3px solid #FFBE83;
+  }
 
   .main-button__text {
     display: block;
@@ -55,7 +62,12 @@
       cursor: pointer;
     }
   }
-
-
 }
+
+
+
+
+
+
+
 
