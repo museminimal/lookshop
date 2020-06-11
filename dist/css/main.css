@@ -114,7 +114,8 @@ header .header__main-section {
         background: #867a76;
         outline: none;
         font-size: 0;
-        margin-right: 20px; }
+        margin: 0 20px 0 0;
+        display: block; }
       .promo .promo__slider .slick-dots li.slick-active button {
         background: #fd926d; }
     .promo .promo__slider .slick-arrow {
