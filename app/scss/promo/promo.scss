@@ -54,7 +54,8 @@
       z-index: 1;
 
       &::before {
-        content: '';
+        content:
+                '';
         display: block;
         position: absolute;
         width: 15px;

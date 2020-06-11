@@ -1,0 +1,47 @@
+.social {
+  background: #ededed;
+
+  .social__inner {
+    display: flex;
+    justify-content: space-between;
+
+    .social__email {
+      padding: 13px 0;
+
+      .social__input {
+        background: $colorWhite;
+        border: none;
+        outline: none;
+        padding: 6px;
+        margin-left: 10px;
+
+        &::placeholder {
+          font-style: italic;
+        }
+      }
+    }
+  }
+
+  .social__media {
+    display: flex;
+
+    .media__description {
+      margin-top: 16px;
+      margin-right: 15px;
+    }
+
+    img {
+      display: block;
+      margin: 18px auto;
+    }
+
+    .media__inner {
+      width: 55px;
+      height: auto;
+    }
+
+    .media__inner_light {
+      background: #f7f7f7;
+    }
+  }
+}
