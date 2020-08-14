@@ -1,0 +1,22 @@
+.demonstration {
+
+  .demonstration__inner {
+    width: 100%;
+    display: flex;
+    padding-top: 40px;
+    margin: 0 auto;
+
+    .demonstration__section-1 {
+      width: 50%;
+      height: 340px;
+      background: url("../img/demonstration-1.jpg") no-repeat center/cover;
+    }
+
+    .demonstration__section-2 {
+      display: flex;
+      flex-wrap: wrap;
+      width: 50%;
+      height: 170px;
+    }
+  }
+}
