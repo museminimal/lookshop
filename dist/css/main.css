@@ -218,6 +218,9 @@ header .header__main-section {
     flex-wrap: wrap;
     width: 50%;
     height: 170px; }
+    .demonstration .demonstration__inner .demonstration__section-2 img {
+      height: 100%;
+      width: 100%; }
 
 .container {
   width: 1200px;
