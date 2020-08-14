@@ -193,7 +193,7 @@ header .header__main-section {
   .social .social__media {
     display: flex; }
     .social .social__media .media__description {
-      margin-top: 16px;
+      margin-top: 21px;
       margin-right: 15px; }
     .social .social__media img {
       display: block;
@@ -203,6 +203,21 @@ header .header__main-section {
       height: auto; }
     .social .social__media .media__inner_light {
       background: #f7f7f7; }
+
+.demonstration .demonstration__inner {
+  width: 100%;
+  display: flex;
+  padding-top: 40px;
+  margin: 0 auto; }
+  .demonstration .demonstration__inner .demonstration__section-1 {
+    width: 50%;
+    height: 340px;
+    background: url("../img/demonstration-1.jpg") no-repeat center/cover; }
+  .demonstration .demonstration__inner .demonstration__section-2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 170px; }
 
 .container {
   width: 1200px;
